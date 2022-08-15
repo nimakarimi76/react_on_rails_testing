@@ -71,5 +71,7 @@ group :test do
   gem "webdrivers"
 end
 
-# gem 'webpacker'
+gem 'webpacker'
 gem 'react_on_rails', '~> 13.0', '>= 13.0.2'
+gem "mini_racer", platforms: :ruby
+gem 'foreman'
